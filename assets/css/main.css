@@ -1,4 +1,20 @@
 /*--------------------------------------- General Styles ---------------------------------------*/
+@font-face {
+    font-family: Figtree;
+    src: url("../fonts/Figtree-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: Figtree-Italic;
+    src: url("../fonts/Figtree-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: Figtree-SemiBold;
+    src: url("../fonts/Figtree-SemiBold.ttf");
+}
+@font-face {
+    font-family: Figtree-ExtraBold;
+    src: url("../fonts/Figtree-ExtraBold.ttf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,20 +27,14 @@
     flex-direction: column;
 }
 /*--------------------------------------- Header Styles ---------------------------------------*/
-header {
-    min-height: 15vh;
-    background-color: blueviolet;
-}
+
 /*--------------------------------------- Main Styles -----------------------------------------*/
 main {
     flex-grow: 1;
     background-color: aqua;
+    font-family: Figtree;
 }
 /*--------------------------------------- Footer Styles ---------------------------------------*/
-footer {
-    min-height: 5vh;
-    background-color: brown;
-}
 
 /*---------------------------------------------------------------------------------------------*/
 /*--------------------------------------- Media Queries ---------------------------------------*/
