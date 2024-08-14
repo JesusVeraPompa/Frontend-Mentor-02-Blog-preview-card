@@ -51,23 +51,53 @@ main > .row {
 main > .row > .col {
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
     padding: 0 !important;
 }
 main > .row > .col > .img-col > img {
-    /*width: 100%;*/
     object-fit: contain;
     border-radius: 10px;
 }
 .button-col>.btn{
     margin-top: 20px;
-    padding: 4px 10px;
+    padding: 3px 10px;
     border-radius: 5px;
     background-color: #f5cf4e;
     color: black;
     text-decoration: none;
     font-family: Figtree-ExtraBold;
+    font-size: 15px;
+}
+.date-col>p{
+    margin-top: 10px;
+    font-family: Figtree-SemiBold;
+}
+.title-col>h4{
+    font-family: Figtree-ExtraBold;
+}
+.title-col>h4:hover{
+    color: #f5cf4e;
+    cursor: pointer;
+}
+.description-col>p{
+    margin-top: 10px;
+    font-family: Figtree;
+    font-weight: 500;
+    color:rgb(116, 116, 116)
+}
+.author-col{
+    display: flex;
+    align-items: start;
+    justify-items: center;       
+}
+.author-col>img{
+    width: 30px;
+    height: 30px;
+}
+.author-col>p{
+    font-family: Figtree-ExtraBold;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 /*--------------------------------------- Footer Styles ---------------------------------------*/
 
